@@ -81,7 +81,7 @@ p {
     justify-content:flex-start;
 }
 .navbar nav a{
-    justify-content: space-evenly;
+    margin:0 35px;
 }
 .top-content {
     display: flex;
@@ -194,6 +194,9 @@ footer nav a {
         justify-content: space-between;
         margin:35px 0;
 }
+.aboutnavbar a{
+    margin:0 35px;
+}
 .top-about{
     display:flex;
     flex-wrap:wrap;
@@ -210,4 +213,23 @@ footer nav a {
     width:350px;
     border-bottom:1px dashed black;
     padding:0 10px 15px 10px;
+}
+.middlebox h2{
+    padding-top:10px;
+}
+.middlebox p{
+    padding-bottom:10px;
+}
+.middlebox button{
+    border-radius: 8px;
+    padding: 3px 8px;
+    border:1px solid black;
+}
+.bottom-about{
+    display:flex;
+    flex-wrap:wrap;
+    margin:20px 10px; 
+}
+.bottom-about p{
+    margin-bottom:20px;
 }
